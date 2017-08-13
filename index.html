@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title></title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="Content/css/style.css" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script>
+			$(document).ready(function () {
+				var idealColumnWidth = $('#content').width() < 640 ? 135 : 150;
+
+				$(window).resize(function () {
+					var wd = Math.min(Math.round($('#content').width() / idealColumnWidth), 9) || 1;
+					$('.gallery').attr('data-columns', wd);
+				});
+			});
+		</script>
+	</head>
+	<body>
+		
+		<div class="content" id="content">
+
+			<ul class="gallery" data-columns="9">
+				<!--Gallery Item-->
+				<li class="attachment">
+					<div class="attachment-preview">
+						<div class="thumbnail">
+							<div class="centered">
+								<img src="Content/images/image1.jpg" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<!--Gallery Item-->
+				<!--Gallery Item-->
+				<li class="attachment">
+					<div class="attachment-preview">
+						<div class="thumbnail">
+							<div class="centered">
+								<img src="Content/images/image2.jpg" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<!--Gallery Item-->
+				<!--Gallery Item-->
+				<li class="attachment">
+					<div class="attachment-preview">
+						<div class="thumbnail">
+							<div class="centered">
+								<img src="Content/images/image3.jpg" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<!--Gallery Item-->
+				<!--Gallery Item-->
+				<li class="attachment">
+					<div class="attachment-preview">
+						<div class="thumbnail">
+							<div class="centered">
+								<img src="Content/images/image4.jpg" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<!--Gallery Item-->
+				<!--Gallery Item-->
+				<li class="attachment">
+					<div class="attachment-preview">
+						<div class="thumbnail">
+							<div class="centered">
+								<img src="Content/images/image5.jpg" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<!--Gallery Item-->
+				<!--Gallery Item-->
+				<li class="attachment">
+					<div class="attachment-preview">
+						<div class="thumbnail">
+							<div class="centered">
+								<img src="Content/images/image6.jpg" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<!--Gallery Item-->
+				<!--Gallery Item-->
+				<li class="attachment">
+					<div class="attachment-preview">
+						<div class="thumbnail">
+							<div class="centered">
+								<img src="Content/images/image7.jpg" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<!--Gallery Item-->
+				<!--Gallery Item-->
+				<li class="attachment">
+					<div class="attachment-preview">
+						<div class="thumbnail">
+							<div class="centered">
+								<img src="Content/images/image8.jpg" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<!--Gallery Item-->
+				<!--Gallery Item-->
+				<li class="attachment">
+					<div class="attachment-preview">
+						<div class="thumbnail">
+							<div class="centered">
+								<img src="Content/images/image9.jpg" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<!--Gallery Item-->
+				<!--Gallery Item-->
+				<li class="attachment">
+					<div class="attachment-preview">
+						<div class="thumbnail">
+							<div class="centered">
+								<img src="Content/images/image10.jpg" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<!--Gallery Item-->
+				<!--Gallery Item-->
+				<li class="attachment">
+					<div class="attachment-preview">
+						<div class="thumbnail">
+							<div class="centered">
+								<img src="Content/images/image11.jpg" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<!--Gallery Item-->
+				<!--Gallery Item-->
+				<li class="attachment">
+					<div class="attachment-preview">
+						<div class="thumbnail">
+							<div class="centered">
+								<img src="Content/images/image12.jpg" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<!--Gallery Item-->
+				<!--Gallery Item-->
+				<li class="attachment">
+					<div class="attachment-preview">
+						<div class="thumbnail">
+							<div class="centered">
+								<img src="Content/images/image13.jpg" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<!--Gallery Item-->
+				<!--Gallery Item-->
+				<li class="attachment">
+					<div class="attachment-preview">
+						<div class="thumbnail">
+							<div class="centered">
+								<img src="Content/images/image14.jpg" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<!--Gallery Item-->
+				<!--Gallery Item-->
+				<li class="attachment">
+					<div class="attachment-preview">
+						<div class="thumbnail">
+							<div class="centered">
+								<img src="Content/images/image15.jpg" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<!--Gallery Item-->
+			</ul>
+
+		</div>
+
+	</body>
+</html>
